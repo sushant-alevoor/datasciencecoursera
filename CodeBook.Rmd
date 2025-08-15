@@ -1,0 +1,117 @@
+# Code Book
+
+Variables, data, and transformations performed on the UCI HAR Dataset
+have been described below
+
+## Data Source
+Original data came from the Human Activity Recognition 
+Using Smartphones Dataset provided
+
+## Transformations Applied
+
+1. Train and test datasets have been merged to create ONE dataset.
+2. Only measurements of mean and standard deviation for each measurement
+have been retained
+3. Descriptive activity names have been specified to activities in 
+the dataset
+4. Data labels have been replaced by descriptive ones
+5. An independent dataset has been created containing just the mean 
+for each activity and subject
+
+## Variables
+Below are the variables in the tidy dataset:
+
+- subject: Speciifies the ID of the subject
+- activity: Specifies teh activity the subject performed using the smartphone
+
+The following are the time domain signals for various aspects around body
+acceleration, gravity acceleration, acceleration jerk, gyroscope and 
+gyroscope jerk measured around 3 axial directions ie X, Y and Z. The
+variables below capture the mean and standard deviations around each of
+the aspects:
+
+- timebodyacceleration-mean-x: 
+- timebodyacceleration-mean-y: 
+- timebodyacceleration-mean-z: 
+- timebodyacceleration-std-x: 
+- timebodyacceleration-std-y: 
+- timebodyacceleration-std-z: 
+- timegravityacceleration-mean-x: 
+- timegravityacceleration-mean-y: 
+- timegravityacceleration-mean-z: 
+- timegravityacceleration-std-x: 
+- timegravityacceleration-std-y: 
+- timegravityacceleration-std-z: 
+- timebodyaccelerationjerk-mean-x: 
+- timebodyaccelerationjerk-mean-y: 
+- timebodyaccelerationjerk-mean-z: 
+- timebodyaccelerationjerk-std-x: 
+- timebodyaccelerationjerk-std-y: 
+- timebodyaccelerationjerk-std-z: 
+- timebodygyroscope-mean-x: 
+- timebodygyroscope-mean-y: 
+- timebodygyroscope-mean-z: 
+- timebodygyroscope-std-x: 
+- timebodygyroscope-std-y: 
+- timebodygyroscope-std-z: 
+- timebodygyroscopejerk-mean-x: 
+- timebodygyroscopejerk-mean-y: 
+- timebodygyroscopejerk-mean-z: 
+- timebodygyroscopejerk-std-x: 
+- timebodygyroscopejerk-std-y: 
+- timebodygyroscopejerk-std-z: 
+
+The following are the frequency domain signals for various aspects around 
+body acceleration, acceleration jerk and gyroscope measured around 3 axial 
+directions ie X, Y and Z. The variables below capture the mean and 
+standard deviations around each of the aspects:
+
+- frequencybodyacceleration-mean-x: 
+- frequencybodyacceleration-mean-y: 
+- frequencybodyacceleration-mean-z: 
+- frequencybodyacceleration-std-x: 
+- frequencybodyacceleration-std-y: 
+- frequencybodyacceleration-std-z: 
+- frequencybodyaccelerationjerk-mean-x: 
+- frequencybodyaccelerationjerk-mean-y: 
+- frequencybodyaccelerationjerk-mean-z: 
+- frequencybodyaccelerationjerk-std-x: 
+- frequencybodyaccelerationjerk-std-y: 
+- frequencybodyaccelerationjerk-std-z: 
+- frequencybodygyroscope-mean-x: 
+- frequencybodygyroscope-mean-y: 
+- frequencybodygyroscope-mean-z: 
+- frequencybodygyroscope-std-x: 
+- frequencybodygyroscope-std-y: 
+- frequencybodygyroscope-std-z: 
+
+The following are the time domain signals for various aspects around body
+acceleration magnitude, gravity acceleration magnitude, body acceleration
+jerk magnitude, body gyroscope magnitude, body gyroscope jerk magnitude
+measured.The variables below capture the mean and standard deviations 
+around each of the aspects:
+
+- timebodyaccelerationmagnitude-mean: 
+- timebodyaccelerationmagnitude-std: 
+- timegravityaccelerationmagnitude-mean: 
+- timegravityaccelerationmagnitude-std: 
+- timebodyaccelerationjerkmagnitude-mean: 
+- timebodyaccelerationjerkmagnitude-std: 
+- timebodygyroscopemagnitude-mean: 
+- timebodygyroscopemagnitude-std: 
+- timebodygyroscopejerkmagnitude-mean: 
+- timebodygyroscopejerkmagnitude-std: 
+
+The following are the frequency domain signals for various aspects around body
+acceleration magnitude, body acceleration jerk magnitude, body gyroscope 
+magnitude, body gyroscope jerk magnitude measured.The variables below 
+capture the mean and standard deviations around each of the aspects:
+
+- frequencybodyaccelerationmagnitude-mean: 
+- frequencybodyaccelerationmagnitude-std: 
+- frequencybodyaccelerationjerkmagnitude-mean: 
+- frequencybodyaccelerationjerkmagnitude-std: 
+- frequencybodygyroscopemagnitude-mean: 
+- frequencybodygyroscopemagnitude-std: 
+- frequencybodygyroscopejerkmagnitude-mean: 
+- frequencybodygyroscopejerkmagnitude-std: 
