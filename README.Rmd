@@ -1,0 +1,29 @@
+---
+title: "README"
+author: "Sushant A"
+date: "2025-08-15"
+output: html_document
+---
+
+# Getting and Cleaning Data - Course Project
+
+## Project Overview
+This repository contains the R script `run_analysis.R` that processes the UCI HAR Dataset to produce a tidy dataset with readable variable names
+and average for each variable for each subject and activity. 
+
+## Steps Performed in Project
+1. Downloaded and unzipped the dataset.
+2. Merged training and test data.
+3. Extracted only mean and standard deviation measurements.
+4. Applied descriptive activity names.
+5. Cleaned variable names, removed unneccessary characters for clarity
+6. Created a second tidy dataset with averages.
+
+## Files Within Repository
+- 'run_analysis.R': Main analysis script.
+- 'CodeBook.Rmd': Describes all variables in the tidy dataset.
+- 'tidy_dataset.txt': Output tidy dataset.
+- 'README.Rmd': Readme file to give an overall description
+
+## Steps to Run
+source("run_analysis.R")
