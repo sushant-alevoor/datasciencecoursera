@@ -8,7 +8,7 @@ output: html_document
 # Getting and Cleaning Data - Course Project
 
 ## Project Overview
-This repository contains the R script `run_analysis.R` that processes the UCI HAR Dataset to produce a tidy dataset with readable variable names
+This repository contains the R script 'run_analysis.R' that processes the UCI HAR Dataset to produce a tidy dataset with readable variable names
 and average for each variable for each subject and activity. 
 
 ## Steps Performed in Project
